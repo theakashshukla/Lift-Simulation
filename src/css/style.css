@@ -32,7 +32,7 @@ label {
     flex: auto;
 }
 
-.btn-start {
+.btn-build {
     color: rgb(112, 119, 209);
     font-weight: 600;
     font-size: medium;
@@ -47,15 +47,15 @@ label {
 
 }
 
-.btn-start:hover {
-    transform: translateY(-0.3rem);
-    background-color: #9873ff;
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+.btn-build:hover {
     color: white;
     border: none;
+    transform: translateY(-0.1rem);
+    background-color: #9873ff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-start:active {
+.btn-build:active {
     transform: translateY(0.1rem);
     background-color: white;
     box-shadow: 0 0.3rem .5rem rgba(118, 59, 255, 0.2);
@@ -71,12 +71,14 @@ section {
 .div-box {
     padding: 1rem;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .div-btn {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 20px;
 }
 
