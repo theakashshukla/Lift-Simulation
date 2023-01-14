@@ -94,3 +94,24 @@ section {
     }
 
 } */
+
+/* Elevator shaft */
+.elevator-shaft {
+    position: relative;
+    height: 300px; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  /* Elevator */
+  .elevator {
+    position: absolute;
+    bottom: 0; /* position at the bottom of the shaft */
+    width: 100%; /* full width of the shaft */
+    transition: all 0.3s; /* smooth transition */
+  }
+  
+  /* Lift effect on hover */
+  .elevator:hover {
+    transform: translateY(-100%); /* move up by 100% of the height of the elevator */
+  }
+  
