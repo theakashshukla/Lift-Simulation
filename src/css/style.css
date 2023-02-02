@@ -115,3 +115,13 @@ section {
     transform: translateY(-100%); /* move up by 100% of the height of the elevator */
   }
   
+  .floors{
+    border: 2px solid hotpink;
+    width: 100%;
+  }
+
+  .lift{
+    width: 25px;
+    height: 40px;
+    background-color: aqua;
+  }
